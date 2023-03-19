@@ -1,0 +1,72 @@
+body {
+    text-align: center;
+    background-color: thistle;
+    color: rgb(70, 11, 70);
+    font-family: monospace;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.homepage {
+    font-size: 16px;
+}
+
+.column {
+    
+    width: 50%;
+}
+
+.center {
+    margin: auto;
+}
+
+.pad {
+    padding: 40px;
+    width: 70%;
+}
+
+img {
+    height: 250px;
+}
+
+.buttons {
+    display: block;
+    padding: 350px 0 10px 0;
+}
+
+.p1 {
+    float: left;
+}
+
+.p2 {
+    float: right;
+}
+
+button {
+    border-radius: 30%;
+    width: 50px;
+    height: 50px;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+#rock {
+    background-color: rgb(102, 101, 109);
+    border-color: rgb(60, 58, 61);
+    color: rgb(226, 222, 222);
+}
+
+#paper {
+    background-color: rgb(243, 184, 21);
+    border-color: rgb(209, 162, 32);
+    color: rgb(248, 232, 198);
+}
+
+#scissors {
+    background-color: rgb(197, 74, 94);
+    border-color: rgb(192, 35, 61);
+    color: rgb(247, 210, 215);
+}
